@@ -64,4 +64,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   callback = function() vim.hl.on_yank() end,
 })
 
+vim.keymap.set('n', '<Tab>', ':bnext<CR>', { desc = 'Next buffer' })
+vim.keymap.set('n', '<S-Tab>', ':bprev<CR>', { desc = 'Previous buffer' })
+vim.keymap.set('n', '<C-x>', ':bdel<CR>', { desc = 'Delete current buffer' })
+
 -- vim: ts=2 sts=2 sw=2 et

@@ -32,6 +32,13 @@ return {
       ---@diagnostic disable-next-line: duplicate-set-field
       statusline.section_location = function() return '%2l:%-2v' end
 
+      -- Simple startmenu
+      require('mini.starter').setup { autoopen = true }
+
+      -- Enable tabline
+      local tabline = require 'mini.tabline'
+      tabline.setup { show_icons = vim.g.have_nerd_font }
+
       -- ... and there is more!
       --  Check out: https://github.com/nvim-mini/mini.nvim
     end,
