@@ -123,6 +123,9 @@ return {
       ---@type table<string, vim.lsp.Config>
       local servers = {
         clangd = {},
+        --erlangls = {},
+        tsserver = {},
+        astro = {},
         -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
