@@ -124,7 +124,6 @@ return {
       local servers = {
         clangd = {},
         astro = {},
-        jdtls = {},
         -- nil_ls = {},
         -- pyright = {},
         gopls = {},
