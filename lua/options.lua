@@ -69,4 +69,9 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+vim.opt.tabstop = 4 -- Number of spaces that a <Tab> in the file counts for
+vim.opt.shiftwidth = 4 -- Size of an indent
+vim.opt.softtabstop = 4 -- Number of spaces that a <Tab> counts for while performing editing operations
+vim.opt.expandtab = true -- Use spaces instead of tabs
+
 -- vim: ts=2 sts=2 sw=2 et
