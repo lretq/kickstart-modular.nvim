@@ -123,7 +123,7 @@ return {
       ---@type table<string, vim.lsp.Config>
       local servers = {
         clangd = {},
-        astro = {},
+        -- astro = {},
         -- nil_ls = {},
         -- pyright = {},
         gopls = {},
